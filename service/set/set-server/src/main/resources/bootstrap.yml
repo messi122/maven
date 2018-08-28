@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: erp-service-set-api
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        service-id: config-api
+  profiles:
+    active: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#api:
+#  port: 8762
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE

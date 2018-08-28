@@ -1,0 +1,24 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/comico-erp?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    username: root
+    password: hch123456
+    hikari:
+          minimum-idle: 10
+          maximum-pool-size: 100
+          connection-test-query: select 1
+          data-source-properties:
+            cache-prep-stmts: true
+            prep-stmt-cache-size: 250
+            prep-stmt-cache-sql-limit: 2048
+            use-server-prep-stmts: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

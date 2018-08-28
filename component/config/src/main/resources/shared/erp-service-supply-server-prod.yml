@@ -1,0 +1,42 @@
+server:
+  port: 8764
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-wz98a706eunyi19f5o.mysql.rds.aliyuncs.com:3306/comico-erp?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    username: root
+    password: CoMiCozxc157
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 100
+      connection-test-query: select 1
+      data-source-properties:
+        cache-prep-stmts: true
+        prep-stmt-cache-size: 250
+        prep-stmt-cache-sql-limit: 2048
+        use-server-prep-stmts: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  resources:
+    static-locations: classpath:/static/
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1.0
+  cache:
+    type: redis
+  redis:
+    host: 119.23.109.167
+    port: 6379
+    password: comicoERP123
+feign:
+  httpclient:
+    enabled: true
+  hystrix:
+    enabled: true
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

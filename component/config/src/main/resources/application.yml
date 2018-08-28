@@ -1,0 +1,29 @@
+#spring:
+#  application:
+#    name: config-api
+#  cloud:
+#    config:
+#      label: master
+#      api:
+#        git:
+#          uri: https://github.com/huchanghuan/spring-cloud-config
+#          search-paths: "{application}"
+#api:
+#  port: 8888
+
+spring:
+  application:
+    name: config-api
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+  profiles:
+    active: native
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

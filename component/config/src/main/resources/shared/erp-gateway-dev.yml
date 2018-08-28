@@ -1,0 +1,33 @@
+server:
+  port: 5000
+zuul:
+  routes:
+    api-a:
+      path:  /set/**
+      serviceId: erp-service-set-api
+    api-b:
+      path: /info/**
+      serviceId: erp-service-info-api
+    api-c:
+      path: /common/**
+      serviceId: erp-service-common-api
+    api-d:
+      path: /supply/**
+      serviceId: erp-service-supply-api
+    api-other:
+      path: /**
+  host:
+    connect-timeout-millis: 30000
+    socket-timeout-millis: 30000
+  sensitive-headers:
+  prefix: /v1
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 120000
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
