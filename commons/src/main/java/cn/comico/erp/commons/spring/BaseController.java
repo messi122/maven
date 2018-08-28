@@ -2,8 +2,6 @@ package cn.comico.erp.commons.spring;
 
 import cn.comico.erp.commons.exception.CommonException;
 import cn.comico.erp.commons.result.ResultCode;
-import cn.comico.supply.erp.commons.exception.CommonException;
-import cn.comico.supply.erp.commons.result.ResultCode;
 import org.springframework.validation.BindingResult;
 
 /**
