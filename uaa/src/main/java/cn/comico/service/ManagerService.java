@@ -2,7 +2,6 @@ package cn.comico.service;
 
 import cn.comico.repository.ManagerRepository;
 import cn.comico.set.Manager;
-import cn.comico.supply.set.Manager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

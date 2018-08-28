@@ -1,7 +1,6 @@
 package cn.comico.config;
 
 import cn.comico.service.ManagerService;
-import cn.comico.supply.service.ManagerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
