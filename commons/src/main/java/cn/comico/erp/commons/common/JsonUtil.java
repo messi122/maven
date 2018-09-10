@@ -5,6 +5,10 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author changhuanhu
@@ -56,11 +60,30 @@ public class JsonUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        String str = "[{\"name\":\"hch\"},{\"name\":\"cx\"}]";
+        /*String str = "[{\"name\":\"hch\"},{\"name\":\"cx\"}]";
         ObjectMapper mapper = new ObjectMapper();
         JsonNode jsonNode = mapper.reader().readTree(str);
         JsonNode jsonNode1 = jsonNode.get(0);
         String name = jsonNode1.get("name").asText();
-        System.out.println(name);
+        System.out.println(name);*/
+        /*Integer purchasePrice =288800;
+        Integer discount =6547;
+
+        BigDecimal bigPrice =new BigDecimal(String.valueOf(purchasePrice));
+        BigDecimal bigDiscount =new BigDecimal(String.valueOf(discount/10000.0));
+        BigDecimal price =bigPrice.multiply(bigDiscount).setScale(0,BigDecimal.ROUND_HALF_UP);
+        //BigDecimal count =a.multiply(b);
+        System.out.println(price);
+
+        String date ="";
+        int length =date.trim().length();
+        System.err.println("length:"+length);
+        boolean is =StringUtils.isEmpty(date);
+        System.out.println(is);*/
+        String purchase ="CG20180808,2013656";
+
+        List<String> list = Arrays.asList(purchase.split(","));
+        System.out.println(list);
+
     }
 }
