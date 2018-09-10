@@ -76,8 +76,6 @@ public class JsonUtil {
         System.out.println(price);
 
         String date ="";
-        int length =date.trim().length();
-        System.err.println("length:"+length);
         boolean is =StringUtils.isEmpty(date);
         System.out.println(is);*/
         String purchase ="CG20180808,2013656";
