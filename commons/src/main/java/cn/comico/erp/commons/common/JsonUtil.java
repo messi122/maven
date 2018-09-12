@@ -72,8 +72,6 @@ public class JsonUtil {
         BigDecimal bigPrice =new BigDecimal(String.valueOf(purchasePrice));
         BigDecimal bigDiscount =new BigDecimal(String.valueOf(discount/10000.0));
         BigDecimal price =bigPrice.multiply(bigDiscount).setScale(0,BigDecimal.ROUND_HALF_UP);
-        //BigDecimal count =a.multiply(b);
-        System.out.println(price);
 
         String date ="";
         boolean is =StringUtils.isEmpty(date);
