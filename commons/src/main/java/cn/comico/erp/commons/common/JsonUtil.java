@@ -76,7 +76,7 @@ public class JsonUtil {
         String date ="";
         boolean is =StringUtils.isEmpty(date);
         System.out.println(is);*/
-        String purchase ="CG20180808,2013656";
+        String purchase ="CG201809120001";
 
         List<String> list = Arrays.asList(purchase.split(","));
         System.out.println(list);
