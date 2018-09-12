@@ -3,7 +3,6 @@ package cn.comico.repository;
 
 import cn.comico.repository.custom.PermissionCustom;
 import cn.comico.set.Permission;
-import cn.comico.supply.set.Permission;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

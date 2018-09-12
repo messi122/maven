@@ -5,8 +5,6 @@ import cn.comico.dto.ParamsConfigDTO;
 import cn.comico.params.Generator;
 import cn.comico.params.ParamsConfigKeyConstant;
 import cn.comico.service.IParamsConfigService;
-import cn.comico.supply.dto.ParamsConfigDTO;
-import cn.comico.supply.params.Generator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

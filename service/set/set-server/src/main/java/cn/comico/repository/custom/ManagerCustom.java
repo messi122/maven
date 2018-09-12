@@ -4,8 +4,7 @@ package cn.comico.repository.custom;
 
 import cn.comico.dto.ManagerDTO;
 import cn.comico.set.Manager;
-import cn.comico.supply.dto.ManagerDTO;
-import cn.comico.supply.set.Manager;
+
 
 import java.util.List;
 

@@ -4,8 +4,7 @@ package cn.comico.controller;
 import cn.comico.dto.ManagerLoginDTO;
 import cn.comico.facade.OauthApi;
 import cn.comico.service.IManagerService;
-import cn.comico.supply.dto.ManagerLoginDTO;
-import cn.comico.supply.facade.OauthApi;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

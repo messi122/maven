@@ -3,7 +3,6 @@ package cn.comico.feign;
 
 import cn.comico.dto.JWT;
 import cn.comico.feign.impl.AuthServiceHystrix;
-import cn.comico.supply.dto.JWT;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;

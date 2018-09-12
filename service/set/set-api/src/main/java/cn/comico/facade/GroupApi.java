@@ -4,8 +4,6 @@ import cn.comico.dto.GroupDTO;
 import cn.comico.dto.PermissionFirstDTO;
 import cn.comico.erp.commons.result.DataGrid;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.GroupDTO;
-import cn.comico.supply.dto.PermissionFirstDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.prepost.PreAuthorize;

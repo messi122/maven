@@ -3,7 +3,6 @@ package cn.comico.repository.impl;
 
 import cn.comico.dto.GroupDTO;
 import cn.comico.repository.custom.GroupCustom;
-import cn.comico.supply.dto.GroupDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

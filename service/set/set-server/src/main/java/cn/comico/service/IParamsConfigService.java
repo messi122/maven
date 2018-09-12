@@ -2,7 +2,6 @@ package cn.comico.service;
 
 
 import cn.comico.dto.ParamsConfigDTO;
-import cn.comico.supply.dto.ParamsConfigDTO;
 
 import java.util.List;
 

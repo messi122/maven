@@ -4,8 +4,6 @@ package cn.comico.repository.impl;
 import cn.comico.dto.SetWorkflowDTO;
 import cn.comico.dto.WorkflowDTO;
 import cn.comico.repository.custom.SetWorkflowCustom;
-import cn.comico.supply.dto.SetWorkflowDTO;
-import cn.comico.supply.dto.WorkflowDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

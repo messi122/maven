@@ -5,10 +5,6 @@ import cn.comico.dto.SetWorkflowDTO;
 import cn.comico.dto.WorkflowDTO;
 import cn.comico.erp.commons.result.DataGrid;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.SetWorkflowDTO;
-import cn.comico.supply.dto.WorkflowDTO;
-import cn.comico.supply.erp.commons.result.ResultResp;
-
 import java.util.List;
 
 /**

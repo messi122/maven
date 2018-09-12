@@ -1,7 +1,6 @@
 package cn.comico.repository;
 
 import cn.comico.set.SetAdjustion;
-import cn.comico.supply.set.SetAdjustion;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

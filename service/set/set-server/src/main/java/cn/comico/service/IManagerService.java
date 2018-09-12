@@ -8,11 +8,6 @@ import cn.comico.dto.ManagerSaveDTO;
 import cn.comico.dto.MenuDTO;
 import cn.comico.erp.commons.result.DataGrid;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.ManagerDTO;
-import cn.comico.supply.dto.ManagerLoginDTO;
-import cn.comico.supply.dto.ManagerSaveDTO;
-import cn.comico.supply.dto.MenuDTO;
-import cn.comico.supply.erp.commons.result.DataGrid;
 
 import java.util.List;
 

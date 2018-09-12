@@ -3,8 +3,7 @@ package cn.comico.repository;
 
 import cn.comico.repository.custom.ManagerCustom;
 import cn.comico.set.Manager;
-import cn.comico.supply.repository.custom.ManagerCustom;
-import cn.comico.supply.set.Manager;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

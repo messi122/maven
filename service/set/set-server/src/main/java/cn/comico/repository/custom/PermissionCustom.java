@@ -3,7 +3,6 @@ package cn.comico.repository.custom;
 
 
 import cn.comico.dto.PermissionDTO;
-import cn.comico.supply.dto.PermissionDTO;
 
 import java.util.List;
 

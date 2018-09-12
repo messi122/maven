@@ -3,7 +3,6 @@ package cn.comico.repository;
 
 import cn.comico.repository.custom.GroupCustom;
 import cn.comico.set.Group;
-import cn.comico.supply.set.Group;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

@@ -4,9 +4,7 @@ package cn.comico.controller;
 import cn.comico.dto.SetAdjustionDTO;
 import cn.comico.facade.SetAdjustionApi;
 import cn.comico.service.ISetAdjustionService;
-import cn.comico.supply.dto.SetAdjustionDTO;
-import cn.comico.supply.facade.SetAdjustionApi;
-import cn.comico.supply.service.ISetAdjustionService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 

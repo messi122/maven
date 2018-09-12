@@ -2,7 +2,6 @@ package cn.comico.repository;
 
 
 import cn.comico.set.ParamsConfig;
-import cn.comico.supply.set.ParamsConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

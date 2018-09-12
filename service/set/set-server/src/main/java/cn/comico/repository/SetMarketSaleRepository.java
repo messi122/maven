@@ -1,7 +1,6 @@
 package cn.comico.repository;
 
 import cn.comico.set.SetMarketSale;
-import cn.comico.supply.set.SetMarketSale;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

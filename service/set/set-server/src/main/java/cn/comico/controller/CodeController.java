@@ -3,7 +3,6 @@ package cn.comico.controller;
 
 import cn.comico.facade.CodeApi;
 import cn.comico.params.CodeGenerator;
-import cn.comico.supply.facade.CodeApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 

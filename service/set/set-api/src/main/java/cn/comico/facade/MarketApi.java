@@ -6,7 +6,6 @@ import cn.comico.dto.MarketSortDTO;
 import cn.comico.dto.SetMarketSaleDTO;
 import cn.comico.dto.SetMarketSortDTO;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.SetMarketSaleDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -2,8 +2,6 @@ package cn.comico.maven.config.fallback;
 
 import cn.comico.erp.commons.result.ResultCode;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.erp.commons.result.ResultCode;
-import cn.comico.supply.erp.commons.result.ResultResp;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

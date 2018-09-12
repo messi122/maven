@@ -6,7 +6,6 @@ import cn.comico.dto.MenuDTO;
 import cn.comico.dto.PermissionDTO;
 import cn.comico.dto.PermissionDetailDTO;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.ManagerPermissionDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.prepost.PreAuthorize;

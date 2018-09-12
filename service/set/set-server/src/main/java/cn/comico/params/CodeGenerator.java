@@ -3,7 +3,6 @@ package cn.comico.params;
 
 import cn.comico.feign.ChannelPrefixServiceClient;
 import cn.comico.erp.commons.common.DateUtil;
-import cn.comico.supply.erp.commons.common.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

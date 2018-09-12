@@ -2,7 +2,6 @@ package cn.comico.service;
 
 
 import cn.comico.dto.SetAdjustionDTO;
-import cn.comico.supply.dto.SetAdjustionDTO;
 
 /**
  * @Description:

@@ -3,8 +3,6 @@ package cn.comico.repository.impl;
 
 import cn.comico.dto.PermissionDTO;
 import cn.comico.repository.custom.PermissionCustom;
-import cn.comico.supply.dto.PermissionDTO;
-import cn.comico.supply.repository.custom.PermissionCustom;
 import org.hibernate.query.NativeQuery;
 import org.hibernate.type.LongType;
 import org.hibernate.type.StringType;

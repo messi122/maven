@@ -5,11 +5,7 @@ import cn.comico.erp.commons.spring.BeanUtils;
 import cn.comico.repository.SetAdjustionRepository;
 import cn.comico.service.ISetAdjustionService;
 import cn.comico.set.SetAdjustion;
-import cn.comico.supply.dto.SetAdjustionDTO;
-import cn.comico.supply.erp.commons.spring.BeanUtils;
-import cn.comico.supply.repository.SetAdjustionRepository;
-import cn.comico.supply.service.ISetAdjustionService;
-import cn.comico.supply.set.SetAdjustion;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

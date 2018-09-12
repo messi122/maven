@@ -3,7 +3,6 @@ package cn.comico.feign;
 
 import cn.comico.feign.impl.ChannelPrefixServiceHystrix;
 import cn.comico.erp.commons.constant.ApplicationConstant;
-import cn.comico.supply.erp.commons.constant.ApplicationConstant;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

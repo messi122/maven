@@ -6,10 +6,7 @@ import cn.comico.dto.PermissionDTO;
 import cn.comico.dto.PermissionDetailDTO;
 import cn.comico.dto.PermissionFirstDTO;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.ManagerPermissionDTO;
-import cn.comico.supply.dto.PermissionDetailDTO;
-import cn.comico.supply.dto.PermissionFirstDTO;
-import cn.comico.supply.erp.commons.result.ResultResp;
+
 
 import java.util.List;
 

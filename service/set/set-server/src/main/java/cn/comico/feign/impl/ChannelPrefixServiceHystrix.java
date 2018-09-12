@@ -1,7 +1,6 @@
 package cn.comico.feign.impl;
 
 import cn.comico.feign.ChannelPrefixServiceClient;
-import cn.comico.supply.feign.ChannelPrefixServiceClient;
 import org.springframework.stereotype.Component;
 
 /**

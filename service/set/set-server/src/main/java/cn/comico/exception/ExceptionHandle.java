@@ -1,7 +1,6 @@
 package cn.comico.exception;
 
 import cn.comico.erp.commons.exception.CommonException;
-import cn.comico.supply.erp.commons.exception.CommonException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

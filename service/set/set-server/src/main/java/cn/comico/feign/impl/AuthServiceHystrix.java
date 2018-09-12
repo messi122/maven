@@ -3,8 +3,6 @@ package cn.comico.feign.impl;
 
 import cn.comico.dto.JWT;
 import cn.comico.feign.AuthServiceClient;
-import cn.comico.supply.dto.JWT;
-import cn.comico.supply.feign.AuthServiceClient;
 import org.springframework.stereotype.Component;
 
 /**

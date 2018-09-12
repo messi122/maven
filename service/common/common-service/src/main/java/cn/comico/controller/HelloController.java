@@ -2,8 +2,6 @@ package cn.comico.controller;
 
 import cn.comico.erp.commons.result.ResultCode;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.erp.commons.result.ResultCode;
-import cn.comico.supply.erp.commons.result.ResultResp;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

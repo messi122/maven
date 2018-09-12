@@ -3,7 +3,6 @@ package cn.comico.params;
 
 import cn.comico.dto.ParamsConfigDTO;
 import cn.comico.service.IParamsConfigService;
-import cn.comico.supply.dto.ParamsConfigDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

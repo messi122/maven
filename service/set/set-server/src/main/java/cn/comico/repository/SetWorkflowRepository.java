@@ -3,7 +3,6 @@ package cn.comico.repository;
 
 import cn.comico.repository.custom.SetWorkflowCustom;
 import cn.comico.set.SetWorkflow;
-import cn.comico.supply.set.SetWorkflow;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

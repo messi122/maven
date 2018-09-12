@@ -2,8 +2,6 @@ package cn.comico.maven.config.filter;
 
 import cn.comico.erp.commons.result.ResultCode;
 import cn.comico.erp.commons.result.ResultRespBuilder;
-import cn.comico.supply.erp.commons.result.ResultCode;
-import cn.comico.supply.erp.commons.result.ResultRespBuilder;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;

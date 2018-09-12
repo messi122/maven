@@ -1,7 +1,6 @@
 package cn.comico.repository;
 
 import cn.comico.set.SetMarketSort;
-import cn.comico.supply.set.SetMarketSort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
