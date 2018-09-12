@@ -16,7 +16,6 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
-        <module>common-api</module>
         <module>common</module>
         <module>set</module>
         <module>supply</module>

@@ -5,8 +5,6 @@ import cn.comico.dto.ManagerDTO;
 import cn.comico.dto.ManagerSaveDTO;
 import cn.comico.erp.commons.result.DataGrid;
 import cn.comico.erp.commons.result.ResultResp;
-import cn.comico.supply.dto.ManagerDTO;
-import cn.comico.supply.dto.ManagerSaveDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.prepost.PreAuthorize;

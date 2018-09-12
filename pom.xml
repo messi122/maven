@@ -13,8 +13,6 @@
         <module>gateway</module>
         <module>pojo</module>
         <module>service</module>
-        <module>service</module>
-        <module>service</module>
         <module>uaa</module>
     </modules>
 
