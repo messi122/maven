@@ -34,7 +34,6 @@ public class MinInt {
     public static int compare(String a, String b){
         String  left=a+b;
         String  right=b+a;
-        //呵呵nishi shuisa
         for(int i=0;i<left.length()-1;i++){
             if(left.charAt(i)>right.charAt(i)){
                 return 1;
