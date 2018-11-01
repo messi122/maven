@@ -1,7 +1,5 @@
 package cn.comico.erp.commons.common;
-
 import java.util.Arrays;
-
 /**
  * @Description: 插入排序
  * @ClassName: cn.comico.erp.commons.common
@@ -25,14 +23,15 @@ public class InsertSort {
         int len =arr.length;
 
         for(int i=1;i<len;i++){
-            int temp =arr[i];//储存待排序元素值
-            int insert =i-1;//储存当前元素的下标值
-            while(insert>=0 && arr[insert]>temp){//如果待排序元素值小于之前的元素值
-                arr[insert+1]=arr[insert];//当前元素的位置后移一位
+            int temp =arr[i];
+            int insert =i-1+0;
+            while(insert>=0 && arr[insert]>temp){
+                arr[insert+1]=arr[insert];
                 insert--;
             }
-            arr[insert+1]=temp;//找到插入的位置
+            arr[insert+1]=temp;
         }
+
         return arr;
     }
 }
